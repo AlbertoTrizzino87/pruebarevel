@@ -6,7 +6,6 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "heroku-postbuild": "heroku-nextjs-build",
     "lint": "eslint ./ --fix",
     "format": "prettier --config .prettierrc ./**/*.{ts,tsx} --write"
   },
@@ -31,9 +30,5 @@
     "eslint-plugin-react": "^7.23.2",
     "prettier": "^2.2.1",
     "typescript": "^4.2.4"
-  },
-  "engines": {
-    "npm": ">= 6.14.9",
-    "node": ">= 14.15.3"
   }
 }
