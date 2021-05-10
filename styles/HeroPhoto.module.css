@@ -1,0 +1,108 @@
+.herophoto{
+    position: relative;
+    width: 500px;
+    height: 500px;
+}
+
+@media screen and (max-width: 991px){
+    .herophoto{
+      margin-left: auto;
+      margin-right: auto;
+    }
+}
+
+@media screen and (max-width: 991px){
+    .herophoto{
+        width: auto;
+        height: auto;
+    }
+}
+
+.herophoto__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 420.59px;
+    height: 420.59px;
+    background-color: #ffffff;
+    border: 1px solid #EEEEEE;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 0px;
+    transform: rotate(12.21deg);
+    transform-origin: 50% 50%;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+@media screen and (max-width: 1260px){
+    .herophoto__container{
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 1220px){
+    .herophoto__container{
+        margin-left: -20px;
+    }
+}
+
+@media screen and (max-width: 991px){
+    .herophoto__container{
+      margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .herophoto__container{
+        width: 252.35px;
+        height: 252.35px;
+        margin-left: -10px;
+    }
+}
+
+.herophoto__container__photo{
+    width:315.44px;
+    height:315.44px;
+}
+
+@media screen and (max-width: 767px){
+    .herophoto__container__photo{
+        width: 189.26px;
+        height: 189.26px;
+    }
+}
+
+.herophoto :first-child{
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 3; 
+}
+
+.herophoto :nth-child(2){
+    position: absolute;
+    top: 40px;
+    left: 24px;
+    z-index: 2; 
+}
+
+@media screen and (max-width: 767px){
+    .herophoto :nth-child(2){
+        top: 36px;
+        left: 21px;
+    }
+}
+
+.herophoto :nth-child(3){
+    position: absolute;
+    top: 80px;
+    left: 48px;
+    z-index: 1; 
+}
+
+@media screen and (max-width: 767px){
+    .herophoto :nth-child(3){
+        top: 72px;
+        left: 42px;
+    }
+}

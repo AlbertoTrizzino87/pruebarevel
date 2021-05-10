@@ -1,0 +1,3 @@
+# Ignore test files 
+src/__test__
+src/__mocks__
